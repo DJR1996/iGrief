@@ -1,0 +1,25 @@
+name: iGrief
+version: 0.2.1
+author: DJR1996
+main: io.github.DJR1996.Main.iGrief
+commands: 
+    ig:
+        description: Enables banned block placement
+        usage: /ig <toggle> <block>
+permissions:
+    igrief.*:
+        default: op
+        description: Gives all iGrief permission nodes
+        children:
+            igrief.bypass: true
+            igrief.toggle: true
+            igrief.notify: true
+    igrief.bypass:
+        default: op
+        description: Allows the player to bypass restrictions
+    igrief.toggle:
+        default: op
+        description: Allows the player to toggle config nodes
+    igrief.notify:
+        default: op
+        description: Shows this player messages when a player tries to place a banned block

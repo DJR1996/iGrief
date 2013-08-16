@@ -1,0 +1,12 @@
+# Default Configuration File
+disableTNT: true
+disableObsidian: true
+disableBedrock: true
+disableFire: true
+disableFlintandsteel: true
+disableLavaBucket: true
+disableFireball: true
+disbaleTNTExplosion: true
+disableCreeperExplosion: true
+disableBlockIgnite: true
+otherBlocksToDisable: []
